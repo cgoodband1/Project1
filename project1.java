@@ -75,31 +75,36 @@ public class project2 {
 				
 		 
 		poor.print();
+		System.out.println();
 //		
 		
-		System.out.println("fair countries");
+		System.out.println("Fair countries");
 		System.out.println();
 		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name","Code", "Capital", "Population", "GDP", "Happiness Rank");
 		System.out.println("_ _ _ _ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ __ _ _ _ ");
 		fair.print();
+		System.out.println();
 		
-		System.out.println("good countries");
+		System.out.println("Good countries");
 		System.out.println();
 		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name","Code", "Capital", "Population", "GDP", "Happiness Rank");
 		System.out.println("_ _ _ _ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ __ _ _ _ ");
 		good.print();
+		System.out.println();
 
 		System.out.println("VGood countries");
 		System.out.println();
 		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name","Code", "Capital", "Population", "GDP", "Happiness Rank");
 		System.out.println("_ _ _ _ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ __ _ _ _ ");
 		vgood.print();
+		System.out.println();
 
 		System.out.println("Excellent countries");
 		System.out.println();
 		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name","Code", "Capital", "Population", "GDP", "Happiness Rank");
 		System.out.println("_ _ _ _ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ __ _ _ _ ");
 		excellent.print();
+		System.out.println();
 		
 		
 		stack s0 = new stack(160);
@@ -123,7 +128,8 @@ public class project2 {
 			country removedCountry = excellent.remove();
 			s0.push(removedCountry);
 		}
-		
+		System.out.println("Stack");
+		System.out.println();
 		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name", "Code", "Capital", "Population", "GDP", "Happiness Rank");
 
 		s0.printStack();
