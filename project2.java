@@ -123,10 +123,8 @@ public class project2 {
 			country removedCountry = excellent.remove();
 			s0.push(removedCountry);
 		}
-
-		System.out.println("--------------------------------");
-		System.out.println("--------------------------------");
-		System.out.println("--------------------------------");
+		
+		System.out.printf("%-26s %-17s %-12s %-16s %-12s\n", "Name", "Code", "Capital", "Population", "GDP", "Happiness Rank");
 
 		s0.printStack();
 	}
